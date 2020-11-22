@@ -10,3 +10,16 @@
 
 <img src="pics/php-local-server_2.png" alt="drawing" width="800"/>
 <img src="pics/php-local-server_1.png" alt="drawing" width="800"/>
+
+## Require vs include
+
+| Include  |  Require      |
+|----------|---------------|
+| Issues a warning when an error occurs | Does not issue a warning |
+| Execution of the script continues when an error occurs | Execution of the script stops when an error occurs. |
+
+Generally, it’s recommended using the `include` statement so that when an error occurs, execution of the script continues to display the webmaster email address or the contact us page.
+
+The `require` statement should be used if the entire script cannot run without the requested file.
+
+The “include” and “require” statements can be used at any line in the source codes where you want the code to appear.
