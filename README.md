@@ -23,3 +23,9 @@ Generally, it’s recommended using the `include` statement so that when an erro
 The `require` statement should be used if the entire script cannot run without the requested file.
 
 The “include” and “require” statements can be used at any line in the source codes where you want the code to appear.
+
+## Arrays
+Why use arrays?
+- Contents of Arrays can be stretched
+- Arrays easily help group related information such as server login details together
+- Arrays help write cleaner code.
